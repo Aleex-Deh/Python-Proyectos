@@ -1,0 +1,2 @@
+He creado un gestor de contraseñas muy sencillo que está conectado con un db mediante postgres en django. Este consta de 4 funcionalidades.
+La primera es para listar los usuarios y sus contraseñas, esta he optado que funcione mediante el GET. Luego tengo, añadir usuarios, editar contraseña de un usuario y eliminar usuario y contraseña. Estas 3 últimas funcionan mediante el método POST, ya que a mi parecer no es adecuado hacerlo por GET.
